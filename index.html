@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Young Gold Meals — modern continental dining in Lagos, Nigeria.">
+  <title>Young Gold Meals | Restaurant & Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Young Gold Meals home">
+      <span class="brand-mark">YG</span>
+      <span><strong>YOUNG GOLD MEALS</strong><small>RESTAURANT & LOUNGE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reservations">Reservations</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#reservations">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO</p>
+        <h1>Young Gold<br>Meals</h1>
+        <h2>Exceptional Continental Dining in Lagos</h2>
+        <p class="lead">Beautiful food, refined atmosphere, unforgettable moments.</p>
+        <div class="actions">
+          <a class="btn btn-gold" href="#menu">View Menu <span>→</span></a>
+          <a class="btn btn-outline" href="#reservations">Book a Table</a>
+        </div>
+      </div>
+      <div class="script-note">Good Food<br>Good Vibes</div>
+    </section>
+
+    <section class="features">
+      <article><span>♨</span><h3>Premium Quality</h3><p>Fresh ingredients, expertly prepared.</p></article>
+      <article><span>♨</span><h3>Continental Cuisine</h3><p>A world of flavours on your plate.</p></article>
+      <article><span>◇</span><h3>Elegant Atmosphere</h3><p>Dine in style and comfort.</p></article>
+      <article><span>⌖</span><h3>Lagos, Nigeria</h3><p>Right in the heart of the city.</p></article>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">OUR MENU</p><h2>A Taste of the World</h2><p>From fresh starters to exquisite mains, our menu brings together the best of continental cuisine.</p></div>
+        <a class="text-link" href="#menu-grid">View Full Menu →</a>
+      </div>
+      <div id="menu-grid" class="menu-grid">
+        <article class="menu-card"><div class="food-img starters"></div><h3>Starters</h3><a href="#contact">View Items →</a></article>
+        <article class="menu-card"><div class="food-img mains"></div><h3>Main Courses</h3><a href="#contact">View Items →</a></article>
+        <article class="menu-card"><div class="food-img grills"></div><h3>Grills</h3><a href="#contact">View Items →</a></article>
+        <article class="menu-card"><div class="food-img pasta"></div><h3>Pasta & Rice</h3><a href="#contact">View Items →</a></article>
+        <article class="menu-card"><div class="food-img dessert"></div><h3>Desserts</h3><a href="#contact">View Items →</a></article>
+        <article class="menu-card"><div class="food-img drinks"></div><h3>Drinks</h3><a href="#contact">View Items →</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-image"></div>
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT US</p>
+        <h2>The Story Behind Young Gold Meals</h2>
+        <p>Young Gold Meals brings together continental flavours, a stylish atmosphere, and a commitment to quality in Lagos.</p>
+        <p>Our goal is simple: memorable food, warm hospitality, and an experience worth returning for.</p>
+        <a class="btn btn-outline" href="#contact">Learn More →</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="center-heading"><p class="eyebrow">OUR GALLERY</p><h2>Moments at Young Gold Meals</h2><p>Great food. Beautiful spaces. Happy people.</p></div>
+      <div class="gallery">
+        <div class="gallery-item g1"></div><div class="gallery-item g2"></div><div class="gallery-item g3"></div>
+        <div class="gallery-item g4"></div><div class="gallery-item g5"></div>
+      </div>
+    </section>
+
+    <section id="reservations" class="reservation">
+      <div class="reservation-copy"><p class="eyebrow">MAKE A RESERVATION</p><h2>Book Your Table</h2><p>Join us for an unforgettable dining experience.</p></div>
+      <form id="reservation-form" class="reservation-form">
+        <input required name="name" placeholder="Full Name *">
+        <input required name="phone" type="tel" placeholder="Phone Number *">
+        <input required name="date" type="date" aria-label="Date">
+        <input required name="time" type="time" aria-label="Time">
+        <select required name="guests" aria-label="Number of guests"><option value="">Number of Guests *</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select>
+        <button class="btn btn-gold" type="submit">Reserve Now →</button>
+        <p id="form-message" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-brand"><span class="brand-mark">YG</span><strong>YOUNG GOLD MEALS</strong><small>RESTAURANT & LOUNGE</small></div>
+    <div class="contact-details"><p>⌖ Lagos, Nigeria</p><p>☎ +234 000 000 0000 (WhatsApp)</p><p>◷ Open Daily: 11:00 AM – 11:00 PM</p></div>
+    <div class="social"><p>Follow Us</p><div><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="TikTok">♪</a></div></div>
+    <div class="footer-note">More Than a Meal…<br>It's an Experience.</div>
+    <div class="copyright">© 2026 Young Gold Meals. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+                                                 </html>
